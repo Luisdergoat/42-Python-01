@@ -9,10 +9,9 @@ class Plant:
         print(f"{self.name}: {self.height}cm, {self.age} days old")
 
 
-if (__name__ == "__main__"):
-    Rose = Plant("Rose", 25, 30)
-    Sunflower = Plant("Sunflower", 80, 45)
-    Cactus = Plant("Cactus", 15, 120)
+Rose = Plant("Rose", 25, 30)
+Sunflower = Plant("Sunflower", 80, 45)
+Cactus = Plant("Cactus", 15, 120)
 print("=== Garden Plant Registry ===")
 Rose.info()
 Sunflower.info()

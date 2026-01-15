@@ -47,8 +47,7 @@ def print_funktion(self, opt):
         return
 
 
-if __name__ == "__main__":
-    Rose = Plant("Rose", 20, 25)
+Rose = Plant("Rose", 20, 25)
 print("=== garden Security System ===")
 Rose.create_plant()
 Rose.set_height(25)

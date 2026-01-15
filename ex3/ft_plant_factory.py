@@ -10,12 +10,11 @@ class Plant:
 
 
 plant_counter = 0
-if __name__ == "__main__":
-    Rose = Plant("Rose", 25, 30)
-    Oak = Plant("Oak", 200, 365)
-    Cactus = Plant("Cactus", 5, 90)
-    Sunflower = Plant("Sunflower", 80, 45)
-    Fern = Plant("Fern", 15, 120)
+Rose = Plant("Rose", 25, 30)
+Oak = Plant("Oak", 200, 365)
+Cactus = Plant("Cactus", 5, 90)
+Sunflower = Plant("Sunflower", 80, 45)
+Fern = Plant("Fern", 15, 120)
 print("=== Plant Factory Output ===")
 Rose.display_info()
 plant_counter += 1

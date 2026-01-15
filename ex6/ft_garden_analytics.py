@@ -146,12 +146,11 @@ class Reporter(Manager):
         return (score)
 
 
-if __name__ == "__main__":
-    counter = 0
-    Alice = Reporter("Alice")
-    counter += 1
-    Bob = Reporter("Bob")
-    counter += 1
+counter = 0
+Alice = Reporter("Alice")
+counter += 1
+Bob = Reporter("Bob")
+counter += 1
 print("=== Garden Management System Demo ===")
 print("\n")
 Alice.add_to_top_of_list("Oak Tree", 101)

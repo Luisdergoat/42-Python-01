@@ -18,8 +18,7 @@ class Plant():
 
 
 counter = 1
-if (__name__ == "__main__"):
-    Rose = Plant("Rose", 25, 30, 1, 7)
+Rose = Plant("Rose", 25, 30, 1, 7)
 while (counter <= Rose.grow_days):
     if (counter == 1 or counter == Rose.grow_days):
         print(f"=== Day {counter} ===")
